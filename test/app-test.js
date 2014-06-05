@@ -22,6 +22,15 @@ describe("application#", function () {
     })
   });
 
+  it("calls the registerPlugins command", function (next) {
+    var TestApplication = Application.extend({
+      registerPlugins: function () {
+        next();
+      }
+    });
+    new TestApplication();
+  });
+
   it("can register multiple plugins", function (next) {
     var app = new Application(), i = 0;
     app.use(function () {

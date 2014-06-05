@@ -1,6 +1,6 @@
 {
   "name": "mojo-application",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "mojo-application ================",
   "main": "./lib/index.js",
   "scripts": {
