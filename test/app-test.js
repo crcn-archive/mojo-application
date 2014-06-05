@@ -31,6 +31,16 @@ describe("application#", function () {
     new TestApplication();
   });
 
+  it("calls the onInitialize command", function (next) {
+    var TestApplication = Application.extend({
+      onInitialize: function (ab) {
+        expect(ab).to.be(1);
+        next();
+      }
+    });
+    new TestApplication().initialize(1);
+  });
+
   it("can register multiple plugins", function (next) {
     var app = new Application(), i = 0;
     app.use(function () {
