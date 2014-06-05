@@ -48,8 +48,12 @@ describe("application#", function () {
 
   it("emits initialize", function (next) {
     var app = new Application();
-    app.once("initialize", next);
-    app.initialize();
+    app.once("initialize", function (a, b) {
+      expect(a).to.be(1);
+      expect(b).to.be(2);
+      next();
+    });
+    app.initialize(1, 2);
   });
 
   it("has a main application", function () {
