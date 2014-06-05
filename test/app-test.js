@@ -31,9 +31,19 @@ describe("application#", function () {
     new TestApplication();
   });
 
-  it("calls the onInitialize command", function (next) {
+  it("calls the willInitialize command", function (next) {
     var TestApplication = Application.extend({
-      onInitialize: function (ab) {
+      willInitialize: function (ab) {
+        expect(ab).to.be(1);
+        next();
+      }
+    });
+    new TestApplication().initialize(1);
+  });
+
+  it("calls the didInitialize command", function (next) {
+    var TestApplication = Application.extend({
+      didInitialize: function (ab) {
         expect(ab).to.be(1);
         next();
       }
