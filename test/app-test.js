@@ -42,4 +42,8 @@ describe("application#", function () {
     app.once("initialize", next);
     app.initialize();
   });
+
+  it("has a main application", function () {
+    expect(Application.main.constructor.name).to.be("Application");
+  })
 });
