@@ -93,4 +93,15 @@ describe("application#", function () {
     new App();
     expect(i).to.be(2);
   });
+
+  it("throws an error if initialize is called twice", function () {
+    var app = new Application(), err;
+    app.initialize();
+    try {
+      app.initialize();
+    } catch (e) {
+      err = e;
+    }
+    expect(err.message).to.be("cannot initialize application more than once");
+  })
 });
