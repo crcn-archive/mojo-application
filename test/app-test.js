@@ -78,5 +78,19 @@ describe("application#", function () {
 
   it("has a main application", function () {
     expect(Application.main.constructor.name).to.be("Application");
-  })
+  });
+
+  it("can register plugins from the application .plugins property", function () {
+    var i = 0
+
+    var App = Application.extend({
+      plugins: [
+        function () { i++; },
+        function () { i++; }
+      ]
+    });
+
+    new App();
+    expect(i).to.be(2);
+  });
 });
