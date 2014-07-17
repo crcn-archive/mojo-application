@@ -80,6 +80,28 @@ describe("application#", function () {
     expect(Application.main.constructor.name).to.be("Application");
   });
 
+  it("can inherit plugins from parent applications", function () {
+    var i = 0;
+
+    function plugin () {
+      i++;
+    }
+
+    var App = Application.extend({
+      plugins: [plugin]
+    }).extend({
+      plugins: [plugin]
+    }).extend({
+      plugins: [plugin]
+    }).extend({
+      plugins: [plugin]
+    });
+
+    var app = new App();
+    expect(i).to.be(4);
+
+  })
+
   it("can register plugins from the application .plugins property", function () {
     var i = 0
 
