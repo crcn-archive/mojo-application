@@ -100,6 +100,11 @@ describe("application#", function () {
     var app = new App();
     expect(i).to.be(4);
 
+  });
+
+  it("can set properties from the constructor", function () {
+    var app = new Application({ name: "app" });
+    expect(app.name).to.be("app");
   })
 
   it("can register plugins from the application .plugins property", function () {
