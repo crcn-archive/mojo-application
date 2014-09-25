@@ -4,9 +4,10 @@ Main entry point to mojo-based applications. Not very complex - just some glue t
 
 ### See Also
 
-- [mojo-bootstrap](https://github.com/mojo-js/mojo-bootstrap)
 - [mojo-views](https://github.com/mojo-js/mojo-views)
 - [mojo-models](https://github.com/mojo-js/mojo-models)
+- [mojo-router](https://github.com/mojo-js/mojo-router)
+- [mojo-bootstrap](https://github.com/mojo-js/mojo-bootstrap)
 
 ### Example
 
