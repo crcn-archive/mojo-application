@@ -4,6 +4,8 @@ Main entry point to mojo-based applications. Not very complex - just some glue t
 
 ### See Also
 
+- [mojo-bootstrap](https://github.com/mojo-js/mojo-bootstrap)
+
 ### Example
 
 - https://github.com/mojo-js/mojo-todomvc-example
