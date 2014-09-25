@@ -113,6 +113,6 @@ var app = new MyApplication();
 app.initialize({ element: document.body });
 ```
 
-### Core Events
+#### events
 
 - `initialize` - emitted when the application is initialized
