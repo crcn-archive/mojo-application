@@ -2,9 +2,17 @@
 
 Main entry point to mojo-based applications. Not very complex - just some glue to help bootstrap your application.
 
+### See Also
+
+### Example
+
+- https://github.com/mojo-js/mojo-todomvc-example
+
 ## API
 
 #### Application(options)
+
+Extends [bindable.Object](https://github.com/classdojo/bindable.js)
 
 - `options`
   - `nodeFactory` - the node factory to use when creating elements. This is automatically set when undefined.
