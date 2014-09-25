@@ -2,16 +2,16 @@
 
 Main entry point to mojo-based applications. Not very complex - just some glue to help bootstrap your application.
 
+### Examples
+
+- https://github.com/mojo-js/mojo-todomvc-example
+
 ### See Also
 
 - [mojo-views](https://github.com/mojo-js/mojo-views)
 - [mojo-models](https://github.com/mojo-js/mojo-models)
 - [mojo-router](https://github.com/mojo-js/mojo-router)
 - [mojo-bootstrap](https://github.com/mojo-js/mojo-bootstrap)
-
-### Example
-
-- https://github.com/mojo-js/mojo-todomvc-example
 
 ## API
 
