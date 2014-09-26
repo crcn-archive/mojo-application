@@ -1,4 +1,4 @@
-## Mojo Application [![Build Status](https://travis-ci.org/classdojo/mojo-application.svg?branch=master)](https://travis-ci.org/classdojo/mojo-application)
+[![Build Status](https://travis-ci.org/classdojo/mojo-application.svg?branch=master)](https://travis-ci.org/classdojo/mojo-application)
 
 Main entry point to mojo-based applications. Not very complex - just some glue to help bootstrap your application.
 
