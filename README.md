@@ -2,6 +2,12 @@
 
 Main entry point to mojo-based applications. Not very complex - just some glue to help bootstrap your application.
 
+### Installation
+
+```
+npm install mojo-application
+```
+
 ### Examples
 
 - https://github.com/mojo-js/mojo-todomvc-example
