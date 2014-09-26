@@ -1,7 +1,7 @@
 {
   "name": "mojo-application",
   "version": "0.0.17",
-  "description": "mojo-application ================",
+  "description": "Main entry point to mojo-based applications. Not very complex - just some glue to help bootstrap your application.",
   "main": "./lib/index.js",
   "scripts": {
     "test": "mocha ./test"
