@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/classdojo/mojo-application"
+    "url": "https://github.com/mojo-js/mojo-application"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/classdojo/mojo-application/issues"
+    "url": "https://github.com/mojo-js/mojo-application/issues"
   },
-  "homepage": "https://github.com/classdojo/mojo-application",
+  "homepage": "https://github.com/mojo-js/mojo-application",
   "dependencies": {
     "bindable": "0.5.x",
     "expect.js": "0.3.x",
