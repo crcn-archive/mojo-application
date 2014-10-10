@@ -1,6 +1,6 @@
 {
   "name": "mojo-application",
-  "version": "0.0.17",
+  "version": "0.1.0",
   "description": "mojo-application ================",
   "main": "./lib/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/classdojo/mojo-application",
   "dependencies": {
-    "bindable": "0.5.x",
+    "bindable": "0.6.x",
     "expect.js": "0.3.x",
     "mocha": "1.20.x",
     "nofactor": "0.0.x"
